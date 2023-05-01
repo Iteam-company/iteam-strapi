@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_technologies",
+  "info": {
+    "displayName": "technology",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "react",
+        "ts",
+        "js",
+        "angular"
+      ]
+    }
+  }
+}

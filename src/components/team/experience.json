@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_team_experiences",
+  "info": {
+    "displayName": "experience",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "year": {
+      "type": "decimal"
+    }
+  }
+}

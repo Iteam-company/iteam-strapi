@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "companies",
+  "info": {
+    "singularName": "company",
+    "pluralName": "companies",
+    "displayName": "company",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main-text"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.team-item"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_header_footer_options",
+  "info": {
+    "displayName": "options",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    },
+    "href": {
+      "type": "enumeration",
+      "enum": [
+        "/home",
+        "/team",
+        "/projects",
+        "/outsourcing",
+        "/outstaffing",
+        "/development",
+        "/contact_us"
+      ]
+    }
+  }
+}

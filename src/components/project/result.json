@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_results",
+  "info": {
+    "displayName": "result"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main.title"
+    }
+  }
+}

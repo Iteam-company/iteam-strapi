@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main-section"
+    },
+    "howWeWork": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.how-we-work"
+    },
+    "coreValues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.core-values"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_team_technologies",
+  "info": {
+    "displayName": "technology"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "short": {
+      "type": "string"
+    }
+  }
+}

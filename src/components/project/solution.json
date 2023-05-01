@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_solutions",
+  "info": {
+    "displayName": "solution"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main.title"
+    }
+  }
+}

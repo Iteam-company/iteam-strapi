@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_main_main_texts",
+  "info": {
+    "displayName": "MainText"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

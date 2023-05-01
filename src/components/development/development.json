@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_development_developments",
+  "info": {
+    "displayName": "Development"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "info": {
+      "displayName": "info",
+      "type": "component",
+      "repeatable": true,
+      "component": "development.info"
+    }
+  }
+}

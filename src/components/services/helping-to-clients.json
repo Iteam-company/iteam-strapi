@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_services_helping_to_clients",
+  "info": {
+    "displayName": "helpingToClients"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_how_we_works",
+  "info": {
+    "displayName": "howWeWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "explanationWork": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.step-item"
+    }
+  }
+}

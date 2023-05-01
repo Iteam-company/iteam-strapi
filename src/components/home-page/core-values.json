@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_page_core_values",
+  "info": {
+    "displayName": "coreValues",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.step-item"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

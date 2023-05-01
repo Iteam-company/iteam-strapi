@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_team_team_items",
+  "info": {
+    "displayName": "TeamItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "position": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.comments"
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team.technology"
+    },
+    "experience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "team.experience"
+    },
+    "rate": {
+      "type": "decimal"
+    }
+  }
+}

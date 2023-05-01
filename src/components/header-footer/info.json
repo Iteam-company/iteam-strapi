@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_footer_infos",
+  "info": {
+    "displayName": "info"
+  },
+  "options": {},
+  "attributes": {
+    "office": {
+      "type": "string"
+    },
+    "socil_media": {
+      "type": "string"
+    }
+  }
+}

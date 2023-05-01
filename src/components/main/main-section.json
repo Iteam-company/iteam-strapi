@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_main_main_sections",
+  "info": {
+    "displayName": "bannerSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": true,
+      "component": "main.title"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

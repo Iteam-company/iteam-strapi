@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "developments",
+  "info": {
+    "singularName": "development",
+    "pluralName": "developments",
+    "displayName": "development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main-text"
+    },
+    "development": {
+      "displayName": "Development",
+      "type": "component",
+      "repeatable": true,
+      "component": "development.development"
+    }
+  }
+}

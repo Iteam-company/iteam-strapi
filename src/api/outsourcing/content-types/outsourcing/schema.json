@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "outsourcings",
+  "info": {
+    "singularName": "outsourcing",
+    "pluralName": "outsourcings",
+    "displayName": "outsourcing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main-text"
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main.title"
+    },
+    "numbersTitle": {
+      "type": "string"
+    },
+    "numbers": {
+      "displayName": "numbers",
+      "type": "component",
+      "repeatable": true,
+      "component": "services.numbers"
+    },
+    "processTitle": {
+      "type": "string"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.step-item"
+    },
+    "apps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.step-item"
+    },
+    "appsTitle": {
+      "type": "string"
+    }
+  }
+}

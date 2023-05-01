@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_item_details",
+  "info": {
+    "singularName": "project-item-detail",
+    "pluralName": "project-item-details",
+    "displayName": "projectItemDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectDetail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "project.project-detail"
+    }
+  }
+}

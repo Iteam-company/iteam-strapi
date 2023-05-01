@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_header_footer_footer_texts",
+  "info": {
+    "displayName": "footerText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rights": {
+      "type": "string"
+    },
+    "companyInfo": {
+      "displayName": "companyInfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "header-footer.company-info"
+    }
+  }
+}

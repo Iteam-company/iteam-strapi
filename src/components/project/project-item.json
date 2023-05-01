@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_project_project_items",
+  "info": {
+    "displayName": "projectItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "budget": {
+      "type": "string"
+    },
+    "technology": {
+      "displayName": "technology",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.technology"
+    },
+    "color": {
+      "type": "string"
+    },
+    "projectImg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_header_footer_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header-footer.options"
+    }
+  }
+}

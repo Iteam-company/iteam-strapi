@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_project_project_details",
+  "info": {
+    "displayName": "projectDetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "budget": {
+      "type": "string"
+    },
+    "solution": {
+      "displayName": "solution",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.solution"
+    },
+    "result": {
+      "displayName": "result",
+      "type": "component",
+      "repeatable": false,
+      "component": "project.result"
+    },
+    "tech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.technology"
+    },
+    "color": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

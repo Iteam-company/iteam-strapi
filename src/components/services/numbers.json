@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_numbers",
+  "info": {
+    "displayName": "numbers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "integer"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
