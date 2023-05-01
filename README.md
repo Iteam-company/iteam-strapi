@@ -10,25 +10,11 @@ Start your Strapi application with autoReload enabled. [Learn more](https://docs
 yarn develop
 ```
 
-### `start`
+Open http://localhost:1337/admin
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+email: victoriashyika@gmail.com
+password: Qwerty123
 
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
 
 ## ⚙️ Deployment
 
