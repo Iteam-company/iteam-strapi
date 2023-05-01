@@ -10,6 +10,8 @@ Start your Strapi application with autoReload enabled. [Learn more](https://docs
 yarn develop
 ```
 
+### `To adding changes`
+
 Open http://localhost:1337/admin
 
 email: victoriashyika@gmail.com
