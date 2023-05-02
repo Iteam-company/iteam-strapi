@@ -13,8 +13,10 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.9.2",
     "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/provider-upload-cloudinary": "^4.10.1",
     "@strapi/strapi": "4.9.2",
     "better-sqlite3": "8.0.1",
+    "pg": "^8.10.0",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
