@@ -1,13 +1,13 @@
 {
   "name": "iteam-strapi",
   "private": true,
-         
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "npm run pre-start && strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "pre-start": "npm i yarn -g && yarn"
   },
   "devDependencies": {},
   "dependencies": {
