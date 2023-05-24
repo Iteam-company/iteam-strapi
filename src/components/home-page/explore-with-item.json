@@ -28,6 +28,9 @@
     },
     "title": {
       "type": "richtext"
+    },
+    "linkToPreview": {
+      "type": "string"
     }
   }
 }
