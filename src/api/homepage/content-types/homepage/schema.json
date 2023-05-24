@@ -26,6 +26,12 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page.core-values"
+    },
+    "exploreWithIteam": {
+      "displayName": "explore-with-item",
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.explore-with-item"
     }
   }
 }
