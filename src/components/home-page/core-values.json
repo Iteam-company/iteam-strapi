@@ -21,6 +21,13 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "coreValuesImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
