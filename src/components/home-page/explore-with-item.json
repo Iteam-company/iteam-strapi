@@ -31,6 +31,13 @@
     },
     "linkToPreview": {
       "type": "string"
+    },
+    "backgroundForMobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
