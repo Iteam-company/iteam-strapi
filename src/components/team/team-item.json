@@ -37,6 +37,9 @@
     },
     "rate": {
       "type": "decimal"
+    },
+    "upworkLink": {
+      "type": "string"
     }
   }
 }
