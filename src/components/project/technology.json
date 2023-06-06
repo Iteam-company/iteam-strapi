@@ -9,14 +9,15 @@
     "name": {
       "type": "string"
     },
-    "icon": {
-      "type": "enumeration",
-      "enum": [
-        "react",
-        "ts",
-        "js",
-        "angular"
-      ]
+    "techIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
