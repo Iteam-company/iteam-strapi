@@ -14,17 +14,8 @@
       "repeatable": true,
       "component": "header-footer.options"
     },
-    "href": {
-      "type": "enumeration",
-      "enum": [
-        "/home",
-        "/team",
-        "/projects",
-        "/outsourcing",
-        "/outstaffing",
-        "/development",
-        "/contact_us"
-      ]
+    "hrefNav": {
+      "type": "string"
     }
   }
 }
