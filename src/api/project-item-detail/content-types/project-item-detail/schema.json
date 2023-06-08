@@ -16,6 +16,34 @@
       "type": "component",
       "repeatable": false,
       "component": "project.project-detail"
+    },
+    "developedTitle": {
+      "type": "string"
+    },
+    "developedText": {
+      "type": "text"
+    },
+    "approachTitle": {
+      "type": "string"
+    },
+    "approachText": {
+      "type": "text"
+    },
+    "requestTitle": {
+      "type": "string"
+    },
+    "requestText": {
+      "type": "text"
+    },
+    "mainImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
