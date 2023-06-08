@@ -1,7 +1,8 @@
 {
   "collectionName": "components_project_solutions",
   "info": {
-    "displayName": "solution"
+    "displayName": "solution",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,6 +13,34 @@
       "type": "component",
       "repeatable": true,
       "component": "main.title"
+    },
+    "developedTitle": {
+      "type": "string"
+    },
+    "developedText": {
+      "type": "text"
+    },
+    "requestTitle": {
+      "type": "string"
+    },
+    "requestText": {
+      "type": "text"
+    },
+    "approachTitle": {
+      "type": "string"
+    },
+    "approachtext": {
+      "type": "text"
+    },
+    "mainImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
