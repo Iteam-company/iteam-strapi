@@ -1,7 +1,8 @@
 {
   "collectionName": "components_main_main_texts",
   "info": {
-    "displayName": "MainText"
+    "displayName": "MainText",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
