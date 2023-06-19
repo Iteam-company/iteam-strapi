@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "text"
     },
     "step": {
       "type": "string"
@@ -16,11 +16,12 @@
       "type": "richtext"
     },
     "mobileImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
