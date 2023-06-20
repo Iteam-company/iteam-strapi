@@ -1,12 +1,13 @@
 {
   "collectionName": "components_team_comments",
   "info": {
-    "displayName": "comments"
+    "displayName": "comments",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
