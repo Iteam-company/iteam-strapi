@@ -19,9 +19,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "rate": {
-      "type": "string"
     }
   }
 }
