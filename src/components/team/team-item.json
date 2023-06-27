@@ -40,6 +40,9 @@
     },
     "upworkLink": {
       "type": "string"
+    },
+    "rateImage": {
+      "type": "string"
     }
   }
 }
