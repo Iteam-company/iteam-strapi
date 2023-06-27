@@ -42,7 +42,12 @@
       "type": "string"
     },
     "rateImage": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "top rated plus",
+        "top rated",
+        "rising talent"
+      ]
     }
   }
 }
