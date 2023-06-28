@@ -48,6 +48,9 @@
     },
     "visitLink": {
       "type": "string"
+    },
+    "timeFrame": {
+      "type": "string"
     }
   }
 }
