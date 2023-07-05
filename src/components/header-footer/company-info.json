@@ -1,7 +1,8 @@
 {
   "collectionName": "components_header_footer_company_infos",
   "info": {
-    "displayName": "companyInfo"
+    "displayName": "companyInfo",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,6 +10,9 @@
       "type": "string"
     },
     "value": {
+      "type": "string"
+    },
+    "item_link": {
       "type": "string"
     }
   }
