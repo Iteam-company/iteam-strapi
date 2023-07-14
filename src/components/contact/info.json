@@ -17,6 +17,16 @@
       "type": "component",
       "repeatable": true,
       "component": "contact.contact"
+    },
+    "imageUnderForm": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
