@@ -1,7 +1,8 @@
 {
   "collectionName": "components_project_project_items",
   "info": {
-    "displayName": "projectItem"
+    "displayName": "projectItem",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -27,8 +28,19 @@
       "type": "string"
     },
     "projectImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
+      ]
+    },
+    "bgMain": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
       "multiple": false

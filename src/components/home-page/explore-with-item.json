@@ -33,8 +33,19 @@
       "type": "string"
     },
     "backgroundForMobile": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
+      ]
+    },
+    "bgMain": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
       ],
       "type": "media",
       "multiple": true

@@ -11,6 +11,16 @@
     },
     "description": {
       "type": "text"
+    },
+    "bgMain": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
